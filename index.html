@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    
+    <div class="container">
+        <div class="search">
+            <input  type="text" placeholder="Enter The Name" id="weatherlocation">
+            <button id="btn" onclick="changelocation()"><img src="images.jpg" alt=""></button>
+        </div>
+        <div class="weather">
+            <img class="weather-icon"  id="weather-icon" >
+            <h1 class="celcius" id="celcius"></h1>
+            <h2 class="city" id="city"></h2>
+            <h2 id="curr"></h2>
+            <span id="date"></span>
+            <div class="detail">
+                <div class="col">
+                    <img src="humidity.png" alt="">
+                <div class="humidity">
+                <p class="humidityP" id="humidity"></p>
+                
+                <p>Humidity</p>
+            </div>
+        </div>
+        
+            <div class="col">
+                <img src="wind-speed.png" alt="">
+                <div>
+                    <p class="windS" id="wind"></p>
+                    <p>Wind Speed</p>
+               
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+<script src="script.js"></script>
+
+</body>
+
+</html>
